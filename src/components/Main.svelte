@@ -22,13 +22,13 @@
             <p class="text-base sm:text-lg md:text-xl">
                 My <span class="text-violet-400">favorite tech</span> includes C++ (GCC, CMake, SFML, DearImGui, OpenCV) and Rust!
             </p>
-            <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-ls md:text-xl ebgaramound relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="#" target="_blank">
+            <a class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-ls md:text-xl ebgaramound relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" href="https://x.com/deepencoding" target="_blank">
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200"></div>
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
-            <img src={"images/profile.png"} alt="Profile Image" class="object-cover z-[2] max-h-[70vh]"/>
+            <img src={"images/profile.png"} alt="A full moon" class="object-cover z-[2] max-h-[70vh]"/>
         </div>
     </section>
 
@@ -41,10 +41,11 @@
                 Curious to <span class="ebgaramound text-violet-400">see</span> my work?
             </h3>
         </div>
-        <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover: border-violet-700 duration-200">
+        <!--TODO: Make videos to showcase here bro.
+            <a href="#" target="_blank" class="mx-auto px-4 py-2 rounded-md border border-solid border-white flex items-center gap-2 -mb-4 sm:-mb-0 -mt-10 hover: border-violet-700 duration-200">
             <i class="fa-regular fa-circle-play"></i>
             <p>Watch the video</p>
-        </a>
+        </a>-->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
                 <p>A <strong class="text-violet-400">GStreamer</strong> pipeline and <strong class="text-violet-400">OpenCV</strong>-based face detection system that efficiently processed MP4 videos, extracting over 10,000 frames in <strong class="text-violet-400">under 2 minutes</strong> and automating dataset preparation for machine learning.</p>

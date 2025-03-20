@@ -6,7 +6,7 @@
         <p class=""><b class="pr-2">Email</b> deepanshugautam.work@gmail.com</p>
         <p class="">
             <b class="pr-2">Github</b>
-            <a class="text-violet-400 " target="_blank" href="#">
+            <a class="text-violet-400 " target="_blank" href="https://github.com/deepencoding">
                 deepencoding<sup><span class="text-xs scale-75 pl-0.5 ">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
                 </span></sup>
@@ -14,7 +14,7 @@
         </p>
         <p class="">
             <b class="pr-2">LinkedIn</b>
-            <a class="text-violet-400 " target="_blank" href="#">
+            <a class="text-violet-400 " target="_blank" href="https://www.linkedin.com/in/deepanshu-gautam-33385b144/">
                 Deepanshu Gautam<sup><span class="text-xs scale-75 pl-0.5 ">
                     <i class="fa-solid fa-arrow-up-right-from-square text-xs scale-[75%]"></i>
                 </span></sup>
