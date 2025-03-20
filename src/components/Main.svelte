@@ -1,13 +1,13 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
-        {name: 'Face-Clipper', icon: 'fa-solid fa-face-kiss-beam'},
-        {name: 'PacAttack', icon: 'fa-solid fa-ghost'},
-        {name: 'IndeXpress', icon: 'fa-solid fa-book-open-reader'},
+        {name: 'Face-Clipper', icon: 'fa-solid fa-face-kiss-beam', href: 'https://github.com/deepencoding/Face-Clipper'},
+        {name: 'PacAttack', icon: 'fa-solid fa-ghost', href: 'https://github.com/deepencoding/PacAttack'},
+        {name: 'IndeXpress', icon: 'fa-solid fa-book-open-reader', href: 'https://github.com/deepencoding/IndeXpress'},
     ]
     let benefits = [
-        {name: 'versatile technical expertise', description:'I have experience building diverse software solutions, from developing a face detection pipeline for ML datasets to creating interactive graphics applications and efficient parsers, showcasing my adaptability and technical depth.'},
-        {name: 'performance-driven solver', description:'I focus on writing optimized code that enhances performance, such as improving system efficiency with concurrency, algorithmic enhancements, and effective design patterns.'},
+        {name: 'technically versatile', description:'I have experience building diverse software solutions, from developing a face detection pipeline for ML datasets to creating interactive graphics applications and efficient parsers, showcasing my adaptability and technical depth.'},
+        {name: 'a performance-driven solver', description:'I focus on writing optimized code that enhances performance, such as improving system efficiency with concurrency, algorithmic enhancements, and effective design patterns.'},
         {name: 'adaptable, impactful and friendly!', description:'I quickly adapt to new technologies, consistently deliver meaningful contributions, and foster a positive, collaborative environment that helps teams thrive.'},
     ]
 </script>
