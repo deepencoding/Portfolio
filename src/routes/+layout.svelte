@@ -1,3 +1,6 @@
+<!--<svelte:head>
+	<link rel="icon" type="image/svg" href="/favicon.ico" />
+</svelte:head>-->
 <script>
 	import '../app.css';
 	import Footer from '../components/Footer.svelte';
