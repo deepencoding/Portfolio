@@ -1,6 +1,7 @@
 <script>
     import Step from "./Step.svelte";
     let steps = [
+        {name: 'Youtube-Clone', icon: 'fa-solid fa-youtube', href: 'https://github.com/deepencoding/Youtube-Clone'},
         {name: 'Face-Clipper', icon: 'fa-solid fa-face-kiss-beam', href: 'https://github.com/deepencoding/Face-Clipper'},
         {name: 'PacAttack', icon: 'fa-solid fa-ghost', href: 'https://github.com/deepencoding/PacAttack'},
         {name: 'IndeXpress', icon: 'fa-solid fa-book-open-reader', href: 'https://github.com/deepencoding/IndeXpress'},
@@ -48,12 +49,15 @@
         </a>-->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>A <strong class="text-violet-400">GStreamer</strong> pipeline and <strong class="text-violet-400">OpenCV</strong>-based face detection system that efficiently processed MP4 videos, extracting over 10,000 frames in <strong class="text-violet-400">under 2 minutes</strong> and automating dataset preparation for machine learning.</p>
+                <p>A Youtube Clone made using <strong class="text-violet-400">Next.js, firestore, tRPC, GCP</strong>.</p>
             </Step>
             <Step step={steps[1]}>
-                <p>A Pac-Man-inspired game using <strong class="text-violet-400">SFML</strong> with collision detection, dynamic Ghost AI, and progressive scoring and much more.</p>
+                <p>A <strong class="text-violet-400">GStreamer</strong> pipeline and <strong class="text-violet-400">OpenCV</strong>-based face detection system that efficiently processed MP4 videos, extracting over 10,000 frames in <strong class="text-violet-400">under 2 minutes</strong> and automating dataset preparation for machine learning.</p>
             </Step>
             <Step step={steps[2]}>
+                <p>A Pac-Man-inspired game using <strong class="text-violet-400">SFML</strong> with collision detection, dynamic Ghost AI, and progressive scoring and much more.</p>
+            </Step>
+            <Step step={steps[3]}>
                 <p>A concurrent word indexing application in <strong class="text-violet-400">C++</strong> that efficiently parses directories, processing <strong class="text-violet-400">over 1.1 Million</strong> characters in <strong class="text-violet-400">under 5 seconds</strong> using a custom thread pool.</p>
             </Step>
         </div>
